@@ -1,13 +1,17 @@
 #!/usr/bin/python3
 import sys
+
+def tonum(s):
+    try:
+        return int(s)
+    except:
+        return float(s)
+
 num = 0
 #for line in sys.argv[1:]:
 for line in sys.stdin:      #stdinは標準入力の時に使う
-    try:
-        num += int(line)
-    except:
-        num += float(line)
-    
+    num += tonum(line)
+ 
 print("和", num)
 
 
