@@ -1,0 +1,10 @@
+#!/usr/bin/python3
+import sys
+num = 0
+#for line in sys.argv[1:]:
+for line in sys.stdin:      #stdinは標準入力の時に使う
+    num += float(line)
+    
+print("和", num)
+
+
