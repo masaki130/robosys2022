@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+#SPDX-FileCopyrightText:2022 Masaki Mitani
 import sys
 num = 0
 #for line in sys.argv[1:]:
