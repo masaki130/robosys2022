@@ -1,7 +1,8 @@
 #!/usr/bin/python3
 #SPDX-FileCopyrightText:2022 Masaki Mitani
+#SPDX-License Identifier;BSD-3-Clause
+
 import sys
-#SPDX - FileCopyrightText:2022 Masaki Mitani
 
 num = 0
 #for line in sys.argv[1:]:
