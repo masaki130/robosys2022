@@ -1,4 +1,6 @@
 #!/bin/bash
+# SPDX-FileCopyrightText: 2022 Masaki Mitani
+# SPDX-License-Identifier: BSD-3-Cause
 
 ng () {
 	echo $[1]行目が違うよ #$[1]はngの一番目の引数
