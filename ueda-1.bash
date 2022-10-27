@@ -10,3 +10,5 @@ a=ueda
 [ "$a" = ueda] || ng "$LINENO" #LINENOは行の番号の入る変数,LINENOが$[]の中に入る
 
 exit $ret
+
+
