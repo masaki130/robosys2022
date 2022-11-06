@@ -3,9 +3,8 @@
 #SPDX-License Identifier;BSD-3-Clause
 import sys
 
-num = 0.0
-#for line in sys.argv[1:]:
-for line in sys.stdin: #stdinは標準入力の時に使う
-    num += float(line)
- 
-print(num)
+ans = 0.0
+for line in sys.stdin:
+    ans += float(line)
+
+print(ans)

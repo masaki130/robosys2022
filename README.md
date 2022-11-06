@@ -8,6 +8,10 @@
 # prusコマンド
 ![test](https://github.com/masaki130/robosys2022/actions/workflows/test.yml/badge.svg)
 
+標準入力から読み込んだ数字を足す。
+plusを保存した状態で、以下のコマンドを入力すると、プログラム内で1から5が順番に足され、総和が出力される。
+$seq 5 | ./plus
+
 ## 必要なソフトウェア
 * Python
   * テスト済み：3.7～3.10
