@@ -8,7 +8,5 @@ for line in sys.stdin:
     ans += float(line)
 
 ans *= 2
-print(ans)
-
 ans += 10
-print('一つ目の結果に+10をして→', ans)
+print(ans)
