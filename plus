@@ -38,3 +38,5 @@ if(b % 2.0 == 0.0):
     print("乗："+'{:.5f}'.format(b)+" >>>偶数")
 else:
     print("乗："+'{:.5f}'.format(b)+" >>>奇数")
+
+print("和+積+乗："+str(ans+a+b))

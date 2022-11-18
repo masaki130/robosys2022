@@ -12,9 +12,7 @@ res=0
 
 #test
 out=$(seq 2 | ./plus)
-[ "${out}" = 3.0 ] || ng $[LINENO]
-[ "${out}" = 2.0 ] || ng $[LINENO]
-[ "${out}" = 0.50000 ] || ng $[LINENO]
+[ "${out}" = 5.5 ] || ng $[LINENO]
 
 [ "$res" = 0 ] && echo OK
 exit $res
