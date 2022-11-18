@@ -11,7 +11,7 @@ res=0
 
 
 #test
-out=$(seq 3 | ./plus)
+out=$(seq 2 | ./plus)
 [ "${out}" = 3.0 ] || ng $[LINENO]
 [ "${out}" = 2.0 ] || ng $[LINENO]
 [ "${out}" = 0.50000 ] || ng $[LINENO]
