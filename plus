@@ -29,14 +29,14 @@ elif(count == 2):
 else:
     print("和："+str(ans)+" >>>奇数")
 
-if(a % 2.0 == 0.0):
-    print("積："+str(a)+" >>>偶数")
-else:
-    print("積："+str(a)+" >>>奇数")
+#if(a % 2.0 == 0.0):
+    #print("積："+str(a)+" >>>偶数")
+#else:
+    #print("積："+str(a)+" >>>奇数")
 
-if(b % 2.0 == 0.0):
-    print("乗："+'{:.5f}'.format(b)+" >>>偶数")
-else:
-    print("乗："+'{:.5f}'.format(b)+" >>>奇数")
+#if(b % 2.0 == 0.0):
+    #print("乗："+'{:.5f}'.format(b)+" >>>偶数")
+#else:
+    #print("乗："+'{:.5f}'.format(b)+" >>>奇数")
 
-print("和+積+乗："+str(ans+a+b))
+#print("和+積+乗："+str(ans+a+b))

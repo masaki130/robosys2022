@@ -12,7 +12,7 @@ res=0
 
 #test
 out=$(seq 2 | ./plus)
-[ "${out}" = 3.0 ] || ng $[LINENO]
+[ "${out}" = "和：3.0 >>>奇数 >>>素数" ] || ng $[LINENO]
 
 [ "$res" = 0 ] && echo OK
 exit $res
