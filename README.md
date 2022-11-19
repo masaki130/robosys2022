@@ -15,13 +15,9 @@
 * plusを保存した状態で以下のコマンドを入力すると、1から2までの数字を順番に読み込むことが出来る。
 
 ```
-function test() {
-  console.log("notice the blank line before this function?");
-}
-```
-'''
 $seq 2 | ./plus
-'''
+```
+
 * LISENCEへのリンク
     * [LISENCE](https://github.com/masaki130/robosys2022/blob/main/LICENSE)
 
