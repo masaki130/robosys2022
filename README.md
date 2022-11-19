@@ -13,14 +13,17 @@
 * 素数かを判別する。
 
 * plusを保存した状態で以下のコマンドを入力すると、1から2までの数字を順番に読み込むことが出来る。
+
 '''
 $seq 2 | ./plus
 '''
+* [LISENCE](https://github.com/masaki130/robosys2022/blob/main/LICENSE)
+
 ## 必要なソフトウェア
 * Python
   * テスト済み：3.7～3.10
 
 ## テスト環境
-* Ubntu
+* Ubntu：22.04
 
 * © 2022 Masaki Mitani
