@@ -17,7 +17,7 @@
 '''
 $seq 2 | ./plus
 '''
-* [LISENCE](https://github.com/masaki130/robosys2022/blob/main/LICENSE)
+    * [This is link to LISENCE](https://github.com/masaki130/robosys2022/blob/main/LICENSE)
 
 ## 必要なソフトウェア
 * Python
