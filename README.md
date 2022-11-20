@@ -12,12 +12,20 @@
 * 偶数か奇数かを判別する。
 * 素数かを判別する。
 
+# <導入方法>
+```
+$git clone git@github.com:masaki130/robosys2022.git
+```
+# <入出力例>
 * plusを保存した状態で以下のコマンドを入力すると、1から2までの数字を順番に読み込むことが出来る。
 
 ```
 $seq 2 | ./plus
 ```
-
+* 結果
+```
+和：3.0 >>>奇数 >>>素数
+```
 * LISENCEへのリンク
     * [LISENCE](https://github.com/masaki130/robosys2022/blob/main/LICENSE)
 
