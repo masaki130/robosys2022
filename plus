@@ -2,7 +2,9 @@
 #SPDX-FileCopyrightText:2022 Masaki Mitani
 #SPDX-License Identifier;BSD-3-Clause
 import sys
-
+A = 2#偶数
+B = 3#奇数
+C = 4#素数
 a = 1.0
 b = 1.0
 ans = 0.0
@@ -21,11 +23,11 @@ for i in range(1, int(ans)+1):
 
 if(ans % 2.0 == 0.0):
     if(count == 2):
-        print("和："+str(ans)+" >>>偶数 >>>素数")
+        print("和："+str(ans)+" >>>偶数 >>>素数")#和、偶数、素数
     else:
         print("和："+str(ans)+" >>>偶数")
 elif(count == 2):
-    print("和："+str(ans)+" >>>奇数 >>>素数")
+    print(ans, B, C)#和、奇数、素数
 else:
     print("和："+str(ans)+" >>>奇数")
 
