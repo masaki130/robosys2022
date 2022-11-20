@@ -18,27 +18,26 @@ for line in sys.stdin:
 for i in range(1, int(ans)+1):
     if(ans % i == 0):
         count += 1
-
 #print(count)
 
-if(ans % 2.0 == 0.0):
+if(ans % 2.0 == 0.0):#和が偶数
     if(count == 2):
-        print(ans)#和、偶数、素数
+        print(ans, A, C)#和、偶数、素数
     else:
-        print(ans)#和、偶数
+        print(ans, A)#和、偶数
 elif(count == 2):
-    print(ans, B, C)#和、奇数、素数
+    print(ans, B, C)#和、奇数、素数4444444444444444
 else:
     print(ans, B)#和、奇数
 
-#if(a % 2.0 == 0.0):
-    #print("積："+str(a)+" >>>偶数")
-#else:
-    #print("積："+str(a)+" >>>奇数")
+if(a % 2.0 == 0.0):
+    print(a, A)#積、偶数
+else:
+    print(a, B)#積、奇数
 
-#if(b % 2.0 == 0.0):
-    #print("乗："+'{:.5f}'.format(b)+" >>>偶数")
-#else:
-    #print("乗："+'{:.5f}'.format(b)+" >>>奇数")
+if(b % 2.0 == 0.0):
+    print('{:.5f}'.format(b), A)#乗、偶数
+else:
+    print('{:.5f}'.format(b), B)#乗、奇数
 
 #print("和+積+乗："+str(ans+a+b))
