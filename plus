@@ -23,13 +23,13 @@ for i in range(1, int(ans)+1):
 
 if(ans % 2.0 == 0.0):
     if(count == 2):
-        print("和："+str(ans)+" >>>偶数 >>>素数")#和、偶数、素数
+        print(ans)#和、偶数、素数
     else:
-        print("和："+str(ans)+" >>>偶数")
+        print(ans)#和、偶数
 elif(count == 2):
     print(ans, B, C)#和、奇数、素数
 else:
-    print("和："+str(ans)+" >>>奇数")
+    print(ans, B)#和、奇数
 
 #if(a % 2.0 == 0.0):
     #print("積："+str(a)+" >>>偶数")
