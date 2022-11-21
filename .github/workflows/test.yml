@@ -1,5 +1,5 @@
 # SPDX-FileCopyrightText: 2022 Masaki Mitani
-# # SPDX-License-Identifier: BSD-3-Cause
+# SPDX-License-Identifier: BSD-3-Cause
 
 name: test
 on: push
