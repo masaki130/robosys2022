@@ -5,8 +5,8 @@
 ![test](https://github.com/masaki130/robosys2022/actions/workflows/test.yml/badge.svg)
 
 # <機能>
-* 標準入力から読み込んだ数字の"和", "積", "乗"を出力する。
-* "偶数", "奇数", "素数"を判別する。
+* 標準入力から読み込んだ数字の和, 積, 乗を出力する。
+* 偶数, 奇数, 素数を判別する。
     * 偶数は2、奇数は3、素数は4を出力する。
 
 # <導入方法>
@@ -34,7 +34,7 @@ $seq 2 | ./pps
 * Ubntu：22.04
 
 ## 権利
-* LISENCEへのリンク
+* LICENSEへのリンク
     * [LICENSE](https://github.com/masaki130/robosys2022/blob/main/LICENSE)
 * このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます．
 * このパッケージのコードは，下記のスライド（CC-BY-SA 4.0 by Ryuichi Ueda）のものを，本人の許可を得て自身の著作としたものです．
