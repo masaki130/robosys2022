@@ -1,7 +1,7 @@
 # robosys2022
 ロボットシステム学 (第3回以降の練習リポジトリ)
 
-# 和積乗コマンド
+# ppsコマンド(plus product square)
 ![test](https://github.com/masaki130/robosys2022/actions/workflows/test.yml/badge.svg)
 
 # <機能>
