@@ -33,7 +33,7 @@ $seq 2 | ./plus
 ## テスト環境
 * Ubntu：22.04
 
-##備考
+## 備考
 * LISENCEへのリンク
     * [LICENSE](https://github.com/masaki130/robosys2022/blob/main/LICENSE)
 * このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます．
