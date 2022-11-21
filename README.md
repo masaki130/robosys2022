@@ -4,26 +4,21 @@
 * このパッケージのコードは，下記のスライド（CC-BY-SA 4.0 by Ryuichi Ueda）のものを，本人の許可を得て自身の著作としたものです．
     * [ryuichiueda/my_slides robosys_2022](https://github.com/ryuichiueda/my_slides/tree/master/robosys_2022)
 
-# plusコマンド
+# ＋×÷コマンド
 ![test](https://github.com/masaki130/robosys2022/actions/workflows/test.yml/badge.svg)
 
 # <機能>
-* 1行目
-    * 標準入力から読み込んだ数字の"和"を出力する。
-    * 偶数か奇数かを判別する。
-    * 素数かを判別する。
-    * 偶数ならば2、奇数ならば3、素数ならば4を出力する。
-* 2、3行目
-    * 標準入力から読み込んだ数字の"積"、"乗"を出力する。
-    * 偶数か奇数かを判別する。
-    * 偶数ならば2、奇数ならば3を出力する。
+* 標準入力から読み込んだ数字の"和", "積", "乗"を出力する。
+* "偶数", "奇数", "素数"を判別する。
+    * 偶数は2、奇数は3、素数は4を出力する。
 
 # <導入方法>
 ```
-$git clone git@github.com:masaki130/robosys2022.git
+$ git clone git@github.com:masaki130/robosys2022.git
+$ cd robosys2022
 ```
 # <入出力例>
-* plusを保存した状態で以下のコマンドを入力すると、1から2までの数字を順番に読み込むことが出来る。
+* 以下のコマンドを入力すると、1から2までの数字を順番に読み込むことが出来る。
 
 ```
 $seq 2 | ./plus
@@ -35,7 +30,7 @@ $seq 2 | ./plus
 0.50000 3
 ```
 * LISENCEへのリンク
-    * [LISENCE](https://github.com/masaki130/robosys2022/blob/main/LICENSE)
+    * [LICENSE](https://github.com/masaki130/robosys2022/blob/main/LICENSE)
 
 ## 必要なソフトウェア
 * Python
