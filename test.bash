@@ -11,7 +11,7 @@ res=0
 
 
 #test
-out=$(seq 2 | ./plus)
+out=$(seq 2 | ./pps)
 [ "${out}" = "3.0 3 4
 2.0 2
 0.50000 3" ] || ng $[LINENO]

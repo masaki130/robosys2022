@@ -1,7 +1,7 @@
 # robosys2022
 ロボットシステム学 (第3回以降の練習リポジトリ)
 
-# ppsコマンド(plus product square)
+# ppsコマンド
 ![test](https://github.com/masaki130/robosys2022/actions/workflows/test.yml/badge.svg)
 
 # <機能>
@@ -18,7 +18,7 @@ $ cd robosys2022
 * 以下のコマンドを入力すると、1から2までの数字を順番に読み込む。
 
 ```
-$seq 2 | ./plus
+$seq 2 | ./pps
 ```
 * 結果
 ```
