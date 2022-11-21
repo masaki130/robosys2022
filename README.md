@@ -1,7 +1,7 @@
 # robosys2022
 ロボットシステム学 (第3回以降の練習リポジトリ)
 
-# 「+×÷コマンド」
+# 和積乗コマンド
 ![test](https://github.com/masaki130/robosys2022/actions/workflows/test.yml/badge.svg)
 
 # <機能>
@@ -33,7 +33,7 @@ $seq 2 | ./plus
 ## テスト環境
 * Ubntu：22.04
 
-## ライセンス
+## 権利
 * LISENCEへのリンク
     * [LICENSE](https://github.com/masaki130/robosys2022/blob/main/LICENSE)
 * このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます．
