@@ -1,6 +1,3 @@
-# robosys2022
-ロボットシステム学 (第3回以降の練習リポジトリ)
-
 # ppsコマンド
 ![test](https://github.com/masaki130/robosys2022/actions/workflows/test.yml/badge.svg)
 
