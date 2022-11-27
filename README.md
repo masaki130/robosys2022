@@ -2,7 +2,7 @@
 #### この度は本リポジトリを御覧いただきありがとうございます。コマンドの機能を十分ご活用いただくため、ご使用前に必ず本リポジトリをお読みいただきたく存じます。
 # ppsコマンド
 * 標準入力から読み込んだ数字の足し算、掛け算、割り算が出来ます。
-![test](https://github.com/masaki130/robosys2022/actions/workflows/test.yml/badge.svg)
+  * ![test](https://github.com/masaki130/robosys2022/actions/workflows/test.yml/badge.svg)
 
 # <機能>
 * 標準入力から読み込んだ数字の和, 積, 乗を出力します。
