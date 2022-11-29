@@ -1,5 +1,6 @@
-# robosys2022（ロボットシステム学第３回以降の練習リポジトリ）
 #### この度は本リポジトリを御覧いただきありがとうございます。コマンドの機能を十分ご活用いただくため、ご使用前に必ず本リポジトリをお読みいただきたく存じます。
+# robosys2022
+* ロボットシステム学第３回以降の練習リポジトリ
 # ppsコマンド
 ![test](https://github.com/masaki130/robosys2022/actions/workflows/test.yml/badge.svg)
 
