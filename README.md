@@ -10,10 +10,11 @@
 * 和に対して、素数かを判別します。
 
 # <導入方法>
-* 以下のコマンドを入力すると、このリポジトリをローカルリポジトリとしてPCに取り込めます。
+* 以下のコマンドを入力すると、このリポジトリをローカルリポジトリとしてPCに取り込めます。githubのアカウントを持っていない場合は、()内のコマンドを使用して下さい。
 ```
 $ git clone git@github.com:masaki130/robosys2022.git
-($ git clone )
+($ git clone https://github.com/masaki130/robosys2022/tree/main)
+
 $ cd robosys2022
 ```
 # <入出力例>
